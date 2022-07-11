@@ -1,0 +1,82 @@
+PATH
+  remote: .
+  specs:
+    utcd (0.2.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    activesupport (7.0.3)
+      concurrent-ruby (~> 1.0, >= 1.0.2)
+      i18n (>= 1.6, < 2)
+      minitest (>= 5.1)
+      tzinfo (~> 2.0)
+    apfel (0.0.5)
+    backport (1.2.0)
+    concurrent-ruby (1.1.10)
+    diff-lcs (1.5.0)
+    domain_name (0.5.20190701)
+      unf (>= 0.0.5, < 1.0.0)
+    graphql (2.0.11)
+    graphql-client (0.18.0)
+      activesupport (>= 3.0)
+      graphql
+    http-accept (1.7.0)
+    http-cookie (1.0.5)
+      domain_name (~> 0.5)
+    i18n (1.10.0)
+      concurrent-ruby (~> 1.0)
+    mime-types (3.4.1)
+      mime-types-data (~> 3.2015)
+    mime-types-data (3.2022.0105)
+    mini_portile2 (2.8.0)
+    minitest (5.16.2)
+    netrc (0.11.0)
+    nokogiri (1.13.6)
+      mini_portile2 (~> 2.8.0)
+      racc (~> 1.4)
+    racc (1.6.0)
+    rake (12.3.3)
+    readapt (1.4.4)
+      backport (~> 1.2)
+      thor (~> 1.0)
+    rest-client (2.1.0)
+      http-accept (>= 1.7.0, < 2.0)
+      http-cookie (>= 1.0.2, < 2.0)
+      mime-types (>= 1.16, < 4.0)
+      netrc (~> 0.8)
+    rspec (3.11.0)
+      rspec-core (~> 3.11.0)
+      rspec-expectations (~> 3.11.0)
+      rspec-mocks (~> 3.11.0)
+    rspec-core (3.11.0)
+      rspec-support (~> 3.11.0)
+    rspec-expectations (3.11.0)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.11.0)
+    rspec-mocks (3.11.1)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.11.0)
+    rspec-support (3.11.0)
+    thor (1.2.1)
+    tzinfo (2.0.4)
+      concurrent-ruby (~> 1.0)
+    unf (0.1.4)
+      unf_ext
+    unf_ext (0.0.8.2)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  apfel
+  graphql-client
+  nokogiri
+  rake (~> 12.0)
+  readapt
+  rest-client (~> 2.0)
+  rspec (~> 3.0)
+  utcd!
+
+BUNDLED WITH
+   2.1.4
